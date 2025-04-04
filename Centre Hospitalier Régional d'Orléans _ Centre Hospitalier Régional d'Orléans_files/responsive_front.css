@@ -1,0 +1,232 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300);
+/*---------------------------------------------------
+    LESS Elements 0.9
+  ---------------------------------------------------
+    A set of useful LESS mixins
+    More info at: http://lesselements.com
+  ---------------------------------------------------*/
+.reset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  float: none;
+}
+.rs {
+  margin: 0;
+  padding: 0;
+}
+@media screen and (max-width: 1000px) {
+  #page {
+    margin-top: 98px;
+  }
+  #content_diapo,
+  #block-raccourci_diaporama-block_diaporama,
+  #wrapper_diaporama_2 {
+    height: 280px !important;
+    width: 738px !important;
+    margin: 0 auto 38px auto !important;
+  }
+  #main #main-inner #content {
+    padding-top: 0;
+  }
+  #content-inner .block-block {
+    margin: 0;
+  }
+  #content-inner .block-block.quatuor {
+    width: 357px !important;
+  }
+  #content-inner .block-block.quatuor.tinyHeight,
+  #content-inner .block-block.quatuor.smallHeight {
+    float: none;
+    position: relative !important;
+    margin: 0 auto !important;
+    height: auto;
+  }
+  #content-inner .block-block.quatuor#block-block-17,
+  #content-inner .block-block.quatuor#block-block-18,
+  #content-inner .block-block.quatuor#block-block-19,
+  #content-inner .block-block.quatuor#block-block-20 {
+    margin-right: 0;
+  }
+  #content-inner .block-block.quatuor#block-block-17,
+  #content-inner .block-block.quatuor#block-block-18 {
+    margin-bottom: 24px;
+    float: right;
+  }
+  #content-inner .block-block.quatuor#block-block-19 {
+    margin: 24px 0;
+  }
+  #content-inner #block-block-16 {
+    float: none;
+    margin: 0 auto 24px auto;
+    padding-bottom: 12px;
+    width: 357px;
+    height: 290px;
+  }
+  #content-inner #block-block-16 h2 {
+    margin: 8px 0 16px 0;
+  }
+  #content-inner #block-block-16 li {
+    float: none;
+    margin-bottom: 0;
+    width: 100%;
+  }
+  #content-inner #block-block-16 li.consulter1 a {
+    background-position: 281px 0;
+  }
+  #content-inner #block-block-16 li.consulter2 a {
+    background-position: 281px -60px;
+  }
+  #content-inner #block-block-16 li.consulter3 a {
+    background-position: 281px -120px;
+  }
+  #content-inner #block-block-16 li.consulter4 a {
+    background-position: 281px -180px;
+  }
+  #content-inner .block-block.quatuor#block-views-infos_sante-block_1 {
+    float: none;
+    position: relative;
+    top: 0;
+    margin: 0 auto;
+
+  }
+}
+@media screen and (max-width: 769px) {
+  #content_diapo .simpleSliderParent ul.simpleSlider li a .story-content:after {
+    display: block;
+  }
+  #content_diapo .controls {
+    width: 80px;
+    left: 310px;
+    top: 0;
+  }
+  #content_diapo .controls .navButton {
+    display: none;
+  }
+  #content_diapo .controls .prev,
+  #content_diapo .controls .next {
+    width: 50%;
+    height: 40px;
+    display: block !important;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    float: left;
+    text-indent: -999em;
+    background: rgba(0, 0, 0, 0.7) url("../images/custom/responsive/slider.png") no-repeat 0 0;
+  }
+  #content_diapo .controls .prev:hover,
+  #content_diapo .controls .next:hover {
+    background-color: #000;
+  }
+  #content_diapo .controls .prev {
+    background-position: -40px 0;
+  }
+}
+@media screen and (max-width: 737px) {
+  #content_diapo,
+  #block-raccourci_diaporama-block_diaporama,
+  #wrapper_diaporama_2 {
+    width: 100% !important;
+  }
+  #main-inner {
+    margin-top: 0;
+  }
+  #content-inner .block-block.quatuor#block-block-17,
+  #content-inner .block-block.quatuor#block-block-18,
+  #content-inner .block-block.quatuor#block-block-19,
+  #content-inner .block-block.quatuor#block-block-20 {
+    float: none;
+    margin: 0 auto 24px auto;
+  }
+  /*#content-inner #block-block-16 {
+    float: none;
+    margin: 0 auto 24px auto;
+  }*/
+}
+@media screen and (max-width: 479px) {
+  #page {
+    margin-top: 60px;
+  }
+  #main-inner,
+  #footer_links_top-inner,
+  #footer_links-inner,
+  #footer-inner,
+  #closure-blocks-inner {
+    margin: 0;
+  }
+  #content_diapo,
+  #block-raccourci_diaporama-block_diaporama,
+  #wrapper_diaporama_2,
+  #content_diapo #block-raccourci_actualites-raccourci_actualites_bloc,
+  #content_diapo .simpleSliderParent {
+    width: 100% !important;
+    height: 300px !important;
+    max-height: none !important;
+  }
+  #content_diapo .simpleSliderParent ul.simpleSlider li a {
+    height: 300px;
+  }
+  #content_diapo .simpleSliderParent ul.simpleSlider li a .story-content {
+    width: auto;
+    height: 252px;
+    background: black;
+  }
+  #content_diapo .simpleSliderParent ul.simpleSlider li a .story-content:after {
+    right: 24px;
+    left: auto;
+  }
+  #content_diapo .simpleSliderParent ul.simpleSlider li a span.story-picture {
+    display: none;
+  }
+  #content_diapo .simpleSliderParent ul.simpleSlider li a span.story-title {
+    margin-top: 40px;
+  }
+  #content_diapo .controls {
+    left: auto;
+    right: 10px;
+    top: 12px;
+  }
+  #content-inner {
+    padding-bottom: 114px;
+  }
+  #content-inner .block-block.quatuor#block-block-17,
+  #content-inner .block-block.quatuor#block-block-18,
+  #content-inner .block-block.quatuor#block-block-19,
+  #content-inner .block-block.quatuor#block-block-20,
+  #content-inner .block-block.quatuor#block-views-infos_sante-block_1,
+  #content-inner .block-block.quatuor#block-block-29,
+  #content-inner .block-block.quatuor#block-block-30 {
+    width: auto !important;
+  }
+  #content-inner .block-block.quatuor#block-block-18 {
+    padding-bottom: 24px;
+  }
+  #content-inner .block-block.quatuor#block-block-17 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100% !important;
+    background-position: right -60px bottom -5px;
+  }
+  #content-inner .block-block.quatuor#block-block-17 a {
+    height: 90px;
+  }
+  #content-inner #block-block-16 {
+    width: auto !important;
+    margin: 0 auto 24px 0 !important;
+    padding: 24px 0 !important;
+  }
+  #content-inner #block-block-16 li.consulter1 a {
+    background-position: 90% 0;
+  }
+  #content-inner #block-block-16 li.consulter2 a {
+    background-position: 90% -60px;
+  }
+  #content-inner #block-block-16 li.consulter3 a {
+    background-position: 90% -120px;
+  }
+  #content-inner #block-block-16 li.consulter4 a {
+    background-position: 90% -180px;
+  }
+}

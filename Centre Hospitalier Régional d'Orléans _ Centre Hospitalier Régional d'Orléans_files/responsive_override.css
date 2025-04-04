@@ -1,0 +1,291 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300);
+/*---------------------------------------------------
+    LESS Elements 0.9
+  ---------------------------------------------------
+    A set of useful LESS mixins
+    More info at: http://lesselements.com
+  ---------------------------------------------------*/
+.reset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  float: none;
+}
+.rs {
+  margin: 0;
+  padding: 0;
+}
+@media screen and (max-width: 1000px) {
+  .infoSite {
+    display: none;
+  }
+  #main-inner,
+  #footer_links_top-inner,
+  #footer_links-inner,
+  #footer-inner,
+  #closure-blocks-inner {
+    padding: 0;
+  }
+  .not-front #content,
+  .not-front #content-actualite {
+    background-image: none;
+  }
+  #header,
+  #toolbar {
+    display: none;
+  }
+  #header_menu_responsive {
+    background: #006bb6;
+  }
+  #header_menu_responsive #logo_gs_responsive {
+    width: 112px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    text-indent: -9999em;
+    background: url("../images/custom/responsive/logo_gs_responsive.png") no-repeat;
+    margin: 0 auto;
+  }
+  #header_menu_responsive #logo_gs_responsive:hover {
+    text-decoration: none;
+  }
+  #header_menu_responsive,
+  .open,
+  #header_menu_responsive #logo_gs_responsive,
+  #responsive #header_menu,
+  #responsive #header_menu #close_menu_btn,
+  #responsive #header_menu #home_menu_btn,
+  #responsive #header_menu #home_menu_btn a {
+    height: 60px;
+  }
+  #responsive #header_menu .block-recherche-responsive input.form-text {
+    height: 38px;
+  }
+  #wrapper {
+    top: 60px;
+  }
+  #page {
+    margin-top: 60px;
+  }
+  #footer_links-inner ul li {
+    width: 33% !important;
+  }
+  #footer_links-inner .infoUrgence p a {
+    background-position: 16px center;
+  }
+  #footer_links-inner .infoUrgence p a:hover {
+    background-position: 16px center;
+  }
+  #footer-inner #block-block-22 address {
+    width: 100%;
+    text-align: center;
+    float: none;
+  }
+  #footer-inner #block-block-22 address span {
+    display: inline;
+    float: none;
+  }
+  #footer-inner #block-block-22 ul {
+    float: none;
+    width: 280px;
+    margin: 12px auto 0 auto;
+    overflow: hidden;
+  }
+  #footer-inner #block-block-22 ul li {
+    margin: 0;
+  }
+  #footer-inner #block-block-22 ul li.venir {
+    float: left;
+  }
+  #footer-inner #block-block-22 ul li.ecrire {
+    float: right;
+  }
+  #footer-inner #block-block-22 ul li a {
+    width: 130px;
+    padding: 14px 0;
+  }
+  .not-front #content-area {
+    padding: 10px 0;
+  }
+  .not-front #content-actualite {
+    width: 449px;
+  }
+  #list-actus {
+    width: auto;
+  }
+  .webform-client-form .form-textarea {
+    width: auto;
+  }
+}
+@media screen and (max-width: 737px) {
+  #main-inner {
+    margin-top: 65px;
+  }
+  #footer_links-inner ul li {
+    width: 50% !important;
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-bottom: 24px;
+  }
+  #footer_links-inner ul li span {
+    font-weight: 600;
+  }
+  #footer_links-inner .infoUrgence {
+    margin-top: 32px;
+  }
+  #footer_links-inner .infoUrgence p {
+    width: 60%;
+  }
+  #footer_links-inner .infoUrgence p:before,
+  #footer_links-inner .infoUrgence p:after {
+    width: 20%;
+  }
+  #footer_links-inner .infoUrgence p:after {
+    left: 80%;
+  }
+  #footer_links-inner .infoUrgence p a {
+    background-position: 20px center;
+  }
+  #footer_links-inner .infoUrgence p a:hover {
+    background-position: 20px center;
+  }
+  #footer-inner #block-block-22 address {
+    line-height: 2em;
+    font-size: 1em;
+  }
+  #footer-inner #block-block-22 address span.org {
+    display: block;
+  }
+  #footer-inner #block-block-22 ul {
+    margin-top: 28px;
+  }
+  .not-front #main #main-inner #content {
+    width: 90%;
+    padding: 0 5% 18px 5%;
+    border-right: none;
+  }
+  #sidebar-right .block {
+    clear: none;
+  }
+  #sidebar-right .block-block {
+    background-color: white;
+  }
+  #sidebar-right .block-block.quatuor {
+    width: 230px;
+    margin-bottom: 0;
+    border-bottom: 0;
+    float: left;
+  }
+  #sidebar-right .block-block.quatuor#block-block-25 {
+    padding-bottom: 24px;
+  }
+  #sidebar-right .block-block.quatuor#block-block-25 ul li a {
+    padding-left: 16px;
+  }
+  #sidebar-right .block-block.quatuor#block-block-24 {
+    background-color: #fff;
+    background-position: right -144px bottom 0;
+  }
+  #sidebar-right .block-block.quatuor#block-block-24 a {
+    height: auto;
+  }
+  #sidebar-right .block-block.quatuor#block-block-24,
+  #sidebar-right .block-block.quatuor#block-block-25,
+  #sidebar-right .block-block.quatuor#block-block-26,
+  #sidebar-right .block-block.quatuor#block-views-infos_sante-block_2,
+  #sidebar-right .block-block.quatuor#block-block-27 {
+    float: right;
+    margin-bottom: 10px;
+  }
+  #sidebar-right #block-block-23 {
+    width: 230px;
+    padding: 10px 0 20px 0;
+    float: left;
+    margin-bottom: 20px;
+  }
+  #sidebar-right #block-block-23 h2 {
+    margin: 30px 0 24px 0;
+  }
+  #sidebar-right #block-block-23 li {
+    height: 64px;
+  }
+  #sidebar-right #block-block-23 li a span {
+    width: 140px;
+    font-size: 1em;
+  }
+  #sidebar-right #block-block-23 li a span.sstitre {
+    font-size: .75em;
+  }
+}
+@media screen and (max-width: 479px) {
+  body {
+    background-image: none;
+  }
+  #footer_links-inner {
+    margin-top: 18px;
+  }
+  #footer_links-inner ul li {
+    width: 240px !important;
+    margin: 10px auto;
+    padding: 10px 0 !important;
+    float: none;
+  }
+  #footer_links-inner .infoUrgence p {
+    width: 80%;
+  }
+  #footer_links-inner .infoUrgence p:before,
+  #footer_links-inner .infoUrgence p:after {
+    width: 10%;
+  }
+  #footer_links-inner .infoUrgence p:after {
+    left: 90%;
+  }
+  #footer-inner #block-block-22 ul {
+    width: auto;
+  }
+  #footer-inner #block-block-22 ul li a {
+    width: 124px;
+    padding: 18px 0;
+  }
+  #footer-inner #block-block-22 address span.tiret {
+    display: block;
+  }
+  #sidebar-right .block-block.quatuor {
+    margin: 0 auto 12px auto !important;
+    width: 262px;
+    padding: 0;
+    float: none !important;
+  }
+  #sidebar-right #block-block-23 {
+    width: 262px;
+    padding: 8px 0;
+    float: none;
+    margin: 0 auto 12px auto;
+  }
+  .view-page-enfant.view-display-id-block_1 a {
+    padding: 18px 40px 18px 16px;
+    background-position: right 18px center;
+  }
+  .book-navigation .page-next,
+  .book-navigation .page-previous {
+    float: none;
+    width: auto;
+  }
+  .not-front #content-actualite {
+    width: auto;
+  }
+  #content-actualite #content-area {
+    width: auto;
+  }
+  #content-actualite .field-field-image-actu {
+    overflow: hidden;
+  }
+  table a {
+    display: block;
+    max-width: 120px;
+  }
+  .webform-client-form .form-text,
+  .webform-client-form .form-textarea {
+    width: 90%;
+  }
+}

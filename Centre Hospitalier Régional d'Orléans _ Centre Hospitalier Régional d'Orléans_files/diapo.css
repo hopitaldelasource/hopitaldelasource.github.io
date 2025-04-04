@@ -1,0 +1,15 @@
+#content_diapo {
+	height: 428px;
+	overflow: hidden;
+	position: relative;
+	z-index: 5;
+}
+#block-raccourci_diaporama-block_diaporama {
+	position: relative;
+	height: 428px;
+	margin: 0;
+}
+#block-raccourci_diaporama-block_diaporama #diaporama_previous {
+}
+#block-raccourci_diaporama-block_diaporama #diaporama_next {
+}

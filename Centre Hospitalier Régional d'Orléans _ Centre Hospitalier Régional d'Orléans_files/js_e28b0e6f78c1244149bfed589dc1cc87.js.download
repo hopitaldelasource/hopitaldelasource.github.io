@@ -1,0 +1,3 @@
+showcaseParams.pagerAnchorBuilder = showcase_pagerAnchorBuilder;
+showcaseParams.updateActivePagerLink = showcase_updateActivePagerLink;
+$(showcaseParams.container).cycle(showcaseParams);;

@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300);
+/*---------------------------------------------------
+    LESS Elements 0.9
+  ---------------------------------------------------
+    A set of useful LESS mixins
+    More info at: http://lesselements.com
+  ---------------------------------------------------*/
+.reset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  float: none;
+}
+.rs {
+  margin: 0;
+  padding: 0;
+}
+#wrapper_page_actualites .wrapper_story a {
+  border: none;
+}
+#wrapper_page_actualites .wrapper_story a .date_actualite {
+  position: absolute;
+  right: 0;
+  background: #006bb6;
+  color: #fff !important;
+}
+#wrapper_page_actualites .wrapper_story a .titre_actualite {
+  width: auto;
+}
+#wrapper_page_actualites .wrapper_story.no-picture a .titre_actualite {
+  padding-top: 64px;
+}
+#content-actualite h2.titre_actualite {
+  line-height: 1.2em;
+}
+#content-actualite .field-field-image-actu {
+  margin-bottom: 6px;
+}
+#content-actualite .node-type-story .content {
+  background: transparent;
+  border: none;
+  padding: 18px 0;
+}
+#content-actualite .node-type-story .content p {
+  padding: 6px 0;
+}
+#list-actus {
+  padding: 0;
+  width: 204px;
+  margin-top: 24px;
+}
+#block-raccourci_actualites-raccourci_actualites_latest h2 {
+  font-size: 1.2em;
+}
+#block-raccourci_actualites-raccourci_actualites_latest .wrap_latest_story .title_latest_story {
+  text-align: right;
+}
+#block-raccourci_actualites-raccourci_actualites_latest .wrap_latest_story.odd a,
+#block-raccourci_actualites-raccourci_actualites_latest .wrap_latest_story a,
+#block-raccourci_actualites-raccourci_actualites_latest .wrap_latest_story.even a {
+  background: transparent;
+  border-bottom: 2px solid #e9e8e8;
+}
+#block-raccourci_actualites-raccourci_actualites_latest .wrap_latest_story .date_latest_story {
+  margin-bottom: 6px;
+}
+#block-raccourci_actualites-raccourci_actualites_latest .view_more {
+  margin-top: 12px;
+}
+#block-raccourci_actualites-raccourci_actualites_latest .view_more a {
+  border: none;
+}
+#block-addthis-0 {
+  margin-right: 8px;
+}
+#block-addthis-0 .addthis-button {
+  display: block;
+  background-position: -105px 2px;
+  width: 20px;
+}
+#at15s span {
+  margin-left: 4px;
+}
+.atm-s a,
+#at_hover.atm-s a {
+  padding: 6px 0;
+}
+#at20mc a {
+  margin-top: 0;
+}
+#embed_videos_wrapper ul li {
+  height: 176px;
+  margin: 0 10px 18px 0;
+}

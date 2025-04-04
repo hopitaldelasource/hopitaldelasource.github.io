@@ -1,0 +1,661 @@
+/* ==========================================================================
+
+	ACTUALITE
+
+	Couleur Principale Actualite : #006bb6
+	========================================================================== */
+
+/* Pages liste des actus
+-----------------------------*/
+#wrapper_page_actualites .wrapper_story{
+	float: left;
+	margin:0 0 20px 0
+}
+#wrapper_page_actualites .wrapper_story.last{float: right;}
+#wrapper_page_actualites.page_actualites_col2 .wrapper_story{width:47%;}
+
+#wrapper_page_actualites .wrapper_story a {
+	display: block;
+	overflow:hidden;
+	position: relative;
+	text-decoration: none;
+	border: 2px solid #ddd;
+	background-color: #f4f4f4;
+	color:#222;
+	min-height:300px;
+	padding: 0;
+	-webkit-transition: all .25s ease;
+	   -moz-transition: all .25s ease;
+	    -ms-transition: all .25s ease;
+	     -o-transition: all .25s ease;
+	        transition: all .25s ease;
+}
+#wrapper_page_actualites .wrapper_story a:hover{background-color: #e9e9e9;}
+
+#wrapper_page_actualites .wrapper_story .teaser_actualite,
+#wrapper_page_actualites .wrapper_story .date_actualite,
+#wrapper_page_actualites .wrapper_story .titre_actualite,
+#wrapper_page_actualites .wrapper_story .image_actualite,
+#wrapper_page_actualites .wrapper_story .image_actualite img {
+	display: block;
+}
+#wrapper_page_actualites .wrapper_story .image_actualite,
+#wrapper_page_actualites .wrapper_story .titre_actualite{
+	float: left;
+}
+#wrapper_page_actualites .wrapper_story .image_actualite {
+	clear:both;
+	margin: 0;
+}
+#wrapper_page_actualites .wrapper_story .titre_actualite {
+	font-size: 1.4em;
+	font-weight: bold;
+	width: 259px;
+}
+#wrapper_page_actualites .wrapper_story .teaser_actualite,
+#wrapper_page_actualites .wrapper_story .titre_actualite {
+	padding: 10px 10px 0;
+}
+#wrapper_page_actualites .wrapper_story .date_actualite {
+	float: right;
+	padding: 5px;
+}
+#wrapper_page_actualites .wrapper_story .teaser_actualite {
+	clear:both;
+}
+
+#wrapper_page_actualites .wrapper_story .date_actualite,
+#wrapper_page_actualites .wrapper_story .teaser_actualite {
+	font-size: 1.05em;
+}
+#wrapper_page_actualites .wrapper_story .titre_actualite,
+#wrapper_page_actualites .wrapper_story .date_actualite,
+#wrapper_page_actualites .wrapper_story .teaser_actualite {
+	color: #191919;
+	-webkit-transition: all .25s ease;
+	   -moz-transition: all .25s ease;
+	    -ms-transition: all .25s ease;
+	     -o-transition: all .25s ease;
+	        transition: all .25s ease;
+}
+#wrapper_page_actualites .wrapper_story a:hover .titre_actualite,
+#wrapper_page_actualites .wrapper_story a:hover .date_actualite,
+#wrapper_page_actualites .wrapper_story a:hover .teaser_actualite {
+	color: #000;
+}
+#wrapper_page_actualites .wrapper_story a:hover .titre_actualite {
+	color:#006bb6;
+}
+
+/* Détail actualités
+-----------------------------*/
+#content-actualite h2.titre_actualite{
+	font-size: 1.8em;
+	background: none;
+	padding-left: 0;
+	color: #006bb6;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+#content-actualite .node-type-story .content{
+	padding: 8px 5px 0;
+}
+
+/* A lire aussi : block droite liste des actus
+--------------------------------------------*/
+#block-raccourci_actualites-raccourci_actualites_latest h2{
+	border: 0;
+	font-size: 1.3em;
+	text-transform: uppercase;
+}
+#block-raccourci_actualites-raccourci_actualites_latest h2  a{
+	text-align: right;
+	color: #006bb6;
+}
+#block-raccourci_actualites-raccourci_actualites_latest .content {
+	margin-top: 10px;
+}
+#block-raccourci_actualites-raccourci_actualites_latest .wrap_latest_story .date_latest_story {
+	color:#191919;
+}
+#block-raccourci_actualites-raccourci_actualites_latest .wrap_latest_story a:hover .title_latest_story,
+#block-raccourci_actualites-raccourci_actualites_latest .wrap_latest_story a:hover .date_latest_story {
+	color:#fff;
+}
+#block-raccourci_actualites-raccourci_actualites_latest .wrap_latest_story a,
+#block-raccourci_actualites-raccourci_actualites_latest .wrap_latest_story.even a {
+	background-color: #cdcbcb;
+	color: #191919;
+	padding: 7px 10px;
+}
+#block-raccourci_actualites-raccourci_actualites_latest .wrap_latest_story.odd a {
+	background-color: #e9e8e8;
+}
+#block-raccourci_actualites-raccourci_actualites_latest .wrap_latest_story.even a:hover,
+#block-raccourci_actualites-raccourci_actualites_latest .wrap_latest_story.odd a:hover,
+#block-raccourci_actualites-raccourci_actualites_latest .wrap_latest_story a:hover {
+	background-color: #006bb6;
+}
+#block-raccourci_actualites-raccourci_actualites_latest .view_more {
+	display: block;
+	float: none;
+	margin: 0;
+	text-align: center;
+	background-color: #e9e8e8;
+}
+#block-raccourci_actualites-raccourci_actualites_latest .view_more a {
+	color:#006bb6;
+	text-transform: uppercase;
+	display: block;
+	padding: 15px 4px;
+	font-size: 1.1em;
+	text-decoration: none;
+	border-top: 1px solid #ccc;
+}
+#block-raccourci_actualites-raccourci_actualites_latest .view_more a:hover {
+	border-color: transparent;
+	background-color:#006bb6;
+	color:#fff;
+}
+
+
+
+#ui-datepicker-div {
+	width: 18em;
+}
+#ui-datepicker-div .ui-corner-all {
+	-webkit-border-radius: 0 0 0 0 ;
+	-moz-border-radius: 0 0 0 0;
+	-o-border-radius: 0 0 0 0;
+	border-radius: 0 0 0 0;
+}
+.ui-datepicker .ui-datepicker-header {
+	background: none;
+	border:0;
+}
+.ui-datepicker .ui-datepicker-prev,
+.ui-datepicker .ui-datepicker-next {
+	background: #f5f5f5 !important;
+	left: 0em;
+	position: absolute;
+	top: -2em;
+	border: 1px solid #cdcdcd;
+	height:22px !important;
+}
+.ui-datepicker .ui-datepicker-next {
+	right: 0 !important;
+	left: auto !important;
+}
+.ui-datepicker .ui-datepicker-prev span,
+.ui-datepicker .ui-datepicker-next span {
+	background: url("https://srcplib.dnsroute.fr/imgs/static/datepicker/888888_7x7_arrow_left.gif") 50% 50% no-repeat;
+	border: none;
+	cursor: pointer;
+	font-size: 1em;
+	text-indent: -999999px;
+}
+.ui-datepicker .ui-datepicker-next span {
+	background: url("https://srcplib.dnsroute.fr/imgs/static/datepicker/888888_7x7_arrow_right.gif") 50% 50% no-repeat;
+}
+.ui-datepicker .ui-state-hover {
+	background-color: #006bb6;
+	border-color: #006bb6;
+}
+.ui-datepicker-title select {
+	background: #f5f5f5 !important;
+	border: 1px solid #cdcdcd !important;
+	color: #7c7c7c !important;
+	font-size: 1em;
+	height: 24px !important;
+	line-height: 24px !important;
+	margin: 0 !important;
+	padding: 3px !important;
+	position: absolute;
+	top: -2em;
+}
+.ui-datepicker-title select.ui-datepicker-month {
+	left: 2.2em !important;
+	width: 7em;
+}
+.ui-datepicker-title select.ui-datepicker-year {
+	left: 9.6em !important;
+	width: 6em;
+}
+#ui-datepicker-div th {
+	text-align:center;
+}
+table.ui-datepicker-calendar {
+	text-align: right;
+	width: 18em !important;
+}
+table.ui-datepicker-calendar td.ui-datepicker-unselectable,
+table.ui-datepicker-calendar td.ui-datepicker-unselectable span {
+	cursor: default;
+	text-decoration: line-through;
+	background: none !important;
+	border:0 !important;
+}
+table.ui-datepicker-calendar td.ui-datepicker-unselectable.ui-datepicker-other-month {
+	text-decoration: none;
+}
+table.ui-datepicker-calendar th span,
+table.ui-datepicker-calendar td a {
+	color: #7c7c7c;
+	display: block;
+	padding: .3em !important;
+	text-decoration: none;
+	border: 0 !important;
+}
+table.ui-datepicker-calendar tbody {
+	border-top: none;
+}
+table.ui-datepicker-calendar thead th span {
+	color: #fff !important;
+	background: #006bb6 !important;
+}
+table.ui-datepicker-calendar tbody td a {
+	color: #000 !important;
+	background: #dfdfdf !important;
+	border: 0 !important;
+	text-align: center;
+}
+table.ui-datepicker-calendar tbody td a:hover,
+table.ui-datepicker-calendar tbody td a:active,
+table.ui-datepicker-calendar tbody td.ui-datepicker-today a,
+.ui-datepicker .ui-datepicker-buttonpane button {
+	color: #fff !important;
+	background: #006bb6 !important;
+}
+table.ui-datepicker-calendar tr td {
+	color: #222;
+	font-size: .9em;
+	padding: .3em 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+table.ui-datepicker-calendar tr td a {
+	color: #222;
+}
+
+/* Titres
+-----------------*/
+h1.title,
+h1 {
+	color: #006bb6;
+	font-size: 2.4em;
+}
+
+/*** permet de cacher le html sur IE ***/
+#header_menu_responsive,
+#responsive{
+	display:none;
+}
+
+/* Impression, email
+--------------------- */
+.print-logo,
+.print-site_name,
+.print-hr,
+.print-submitted,
+.print-created,
+.print-content,
+.print-taxonomy,
+.print-footer,
+.print-source_url,
+.print-content,
+.print-content {
+	font-family: Arial, sans-serif;
+	font-size:1em;
+	width:667px;
+	margin:0 auto;
+}
+.print-title {
+	width:667px;
+	margin:0 auto;
+}
+.print-logo img {
+	width:auto;
+}
+.print-site_name,
+.print-breadcrumb,
+.print-links {
+	display:none;
+}
+.print-source_url {
+	clear:both;
+}
+
+/* ==========================================================================
+Brochures - 10/04/2014 - REPRISE STYLES CARNAC
+Dernier modif : 19/05/14
+========================================================================== */
+
+/*
+
+// DESCRIPTION
+-----------------------------------
+
+Une sidebar : 3 colonnes ;
+Aucune sidebar : 4 colonnes ;
+
+*/
+
+
+.item-list-brochures{
+	clear: both;
+}
+
+	.item-list-brochures ul{
+		padding: 0;
+		margin: 0 2px;
+		overflow: hidden;
+	}
+
+		/* une brochure */
+
+		.item-list-brochures li.views-row{
+			width: 204px;
+			margin-bottom: 30px !important;
+			background: transparent;
+			position: relative;
+			overflow: hidden;
+		}
+
+			/* titre */
+
+			.item-list-brochures .field-title{
+				font-weight: bold;
+				padding: 8px 12px 8px 0;
+			}
+
+			/* image de couverture + lien */
+
+			.item-list-brochures .field-content{
+
+			}
+
+				.item-list-brochures a{
+					display: block;
+					float: left;
+					width: 100%;
+					height: 100%;
+					line-height: 1;
+				}
+
+			/* controls consult + download */
+
+			.item-list-brochures .field-aside{
+				position: absolute;
+				width: 100%;
+				bottom: -100px;
+				left: 0;
+				background: black; /* < IE8 */
+				background: rgba(0,0,0,0.6);
+				-webkit-transition: .4s all ease-in-out;
+				-moz-transition: .4s all ease-in-out;
+				-ms-transition: .4s all ease-in-out;
+				-o-transition: .4s all ease-in-out;
+				transition: .4s all ease-in-out;
+			}
+
+			.item-list-brochures li.views-row:hover .field-aside{
+				bottom: 0;
+			}
+
+				.item-list-brochures .field-aside li.controls{
+					list-style: none;
+					background: transparent;
+					width: 100%;
+					text-align: center;
+				}
+
+					.item-list-brochures .field-aside li.controls a{
+						text-decoration: none;
+						color: #fff;
+						line-height: 40px;
+						-webkit-transition: all 0.4s;
+						-moz-transition: all 0.4s;
+						-ms-transition: all 0.4s;
+						-o-transition: all 0.4s;
+						transition: all 0.4s;
+						font-weight: bold;
+					}
+
+					.item-list-brochures .field-aside li.controls:hover a{
+						background: rgba(0,0,0,1);
+					}
+
+			/* Spécifique */
+
+			.item-list-brochures .field-aside ul.field-controls-brochures li#control-0{ /* consult */
+				width: 75%;
+				float: left;
+			}
+			.item-list-brochures .field-aside ul.field-controls-brochures li#control-1{ /* download */
+				width: 25%;
+				float: left;
+			}
+
+				.item-list-brochures .field-aside ul.field-controls-brochures li#control-1 a{
+					text-indent: -999em;
+					background-image: url("");
+					background-image: url(../../images/widget/medias_1.png);
+					background-repeat: no-repeat;
+					background-position: center center;
+					border-left: 1px solid #fff;
+				}
+/*	MEDIA FILTERS
+	========================================================================== */
+
+	.medias-filter {
+		position: relative;
+		margin-bottom: 20px;
+		float: left;
+		width: 100%;
+		clear: both;
+	}
+	.medias-filter .filter-title{
+		display: block;
+		font-family: "Viga",Arial, Helvetica, sans-serif;
+		color: #006bb6;
+		margin-bottom: 20px;
+		font-size: 1.5em;
+	}
+	.medias-filter ul{
+		padding: 0;
+		margin: 0;
+		float: left;
+		width: 100%;
+	}
+	.medias-filter ul li{
+		display: none;
+		padding: 0;
+		margin: 0;
+		list-style-type: none;
+		background-image: none;
+
+		float: left;
+		padding: 10px;
+		padding-left: 35px;
+		margin-right: 10px;
+		position: relative;
+		margin-bottom: 10px;
+
+		background: #AAA;
+
+		color: #FFF;
+		font-size: 1.1em;
+		cursor: pointer;
+	}
+	.medias-filter ul li.used{
+		display: inline-block;
+	}
+	.medias-filter ul li:hover,
+	.medias-filter ul li.active{
+		background: #006bb6;
+	}
+	.medias-filter ul li.active:after{
+		content: '';
+		width: 9px;
+		height: 9px;
+		position: absolute;
+		top: 13px;
+		left: 13px;
+		background: #006bb6;
+		border-radius: 50%;
+	}
+	.medias-filter ul li:before{
+		content: '';
+		width: 15px;
+		height: 15px;
+		border-radius: 50%;
+		background: #FFF;
+		position: absolute;
+		top: 10px;
+		left: 10px;
+		box-shadow: 0 0 2px rgba(0,0,0,0.2);
+	}
+
+	/* ==========================================================================
+		PHOTOS - OLD PHOTOTHEQUE - 08/04/2014
+		========================================================================== */
+
+		/*#outils_medias {
+			margin-bottom:28px;
+			margin-top:15px;
+			float:left;
+		}
+		#filtre_themes h2 {
+			font-size:1.3em;
+		}
+		#outils_medias ul,
+		#outils_medias #filter,
+		#list_medias ul {
+			padding:0;
+			margin:0;
+		}
+		#outils_medias ul li{}
+
+		#outils_medias li input{
+			display:none;
+		}
+		#outils_medias li {
+			padding:0;
+		}
+		#outils_medias li label {
+			cursor:pointer;
+			background:#D3D3D3;
+			border-radius:3px;
+			display: block;
+			padding: 10px;
+		}
+		#outils_medias li.selected label {
+			background:#c6c6c6;
+		}
+		#outils_medias li.all_theme label{
+			background:#006bb6;
+		}
+		#outils_medias li label:hover {
+			background:#006bb6;
+			color:#fff;
+		}
+		#outils_medias li label.all {
+			text-transform:uppercase;
+			font-weight:bold;
+			color:#fff;
+		}
+		#outils_medias li.selected {
+			box-shadow: 2px 2px 4px #777777;
+			border-radius:3px;
+		}
+		*/
+		#list_medias ul li {
+			margin-right: 10px;
+			background:none;
+			float:left;
+		}
+		#list_medias .views-field-title span {
+			display:block;
+		}
+		#list_medias {
+			clear: both;
+			overflow: hidden;
+		}
+		#list_medias a {
+			display: block;
+			text-decoration:none;
+			font-size:0.85em;
+		}
+		#list_medias ul li {
+			width:240px;
+			height:134px;
+			margin-right:24px;
+			margin-bottom:24px;
+			overflow:hidden;
+			position:relative;
+		}
+		#list_medias .views-field-title{
+			background:#000;
+			background:rgba(0,0,0,0.7);
+			color:#fff;
+			position:absolute;
+			bottom:-80px;
+			left:0;
+			display:block;
+			width:90%;
+			padding:10px 5%;
+
+			-webkit-transition: all .5s ease;
+			   -moz-transition: all .5s ease;
+			    -ms-transition: all .5s ease;
+			     -o-transition: all .5s ease;
+			        transition: all .5s ease;
+		}
+		#list_medias a:hover .views-field-title{
+			bottom:0;
+		}
+
+	/* ==========================================================================
+		VIDEOS - 08/04/2014
+		========================================================================== */
+
+		#embed_videos_wrapper {
+			padding: 0;
+		}
+		#embed_videos_wrapper ul {
+			overflow: hidden;
+		}
+		#embed_videos_wrapper ul li {
+			width: 240px;
+			height: 135px;
+			background: #DDD;
+		}
+		#embed_videos_wrapper ul li a{
+			padding: 0;
+			float: left;
+			width: 100%;
+			height: 100%;
+		}
+		#embed_videos_wrapper ul li a .video_bloc_title {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 90%;
+			padding: 10px 5%;
+			background: #000;
+			color: #FFF;
+			z-index: 10;
+			margin-bottom: 0;
+		}
+		#embed_videos_wrapper ul li a .masque_video_presse {
+			left: 50%;
+			top: 50%;
+			margin-left: -25px;
+			margin-top: -25px;
+		}
+		#embed_videos_wrapper ul li a img{
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: 1;
+		}
