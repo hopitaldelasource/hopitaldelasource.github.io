@@ -10503,7 +10503,7 @@ div.block.with-block-editing div.edit {
 }
 
 #content-inner .block-block.quatuor#block-block-19 h2,#sidebar-right .block-block.quatuor#block-block-19 h2,#content-inner .block-block.quatuor#block-block-26 h2,#sidebar-right .block-block.quatuor#block-block-26 h2 {
-    color: #63b9ce;
+    color: #ff0000;
     padding-right: 16px;
     background-color:black
 }
@@ -10657,7 +10657,7 @@ div.block.with-block-editing div.edit {
 #footer_links-inner ul li span {
     display: block;
     font-size: 1.2em;
-    color: #44a4e7;
+    color: #ff0000;
     font-weight: 700;
     margin-top: 6px;
 }
@@ -10750,7 +10750,7 @@ div.block.with-block-editing div.edit {
 #footer-inner #block-block-22 address .org {
     text-transform: uppercase;
     font-weight: 700;
-    color: #006bb6;
+    color: #ff0000;
     font-size: 1.07692308em;
 }
 
