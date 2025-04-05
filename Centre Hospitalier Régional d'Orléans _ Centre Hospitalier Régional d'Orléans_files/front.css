@@ -230,7 +230,7 @@
 }
 
 #content-inner .block-block.quatuor#block-block-17 h2:before {
-  background: #64c073;
+  background: #f5c228;
 }
 
 #content-inner .block-block.quatuor#block-block-29 {
@@ -288,7 +288,7 @@
 }
 
 #content-inner .block-block.quatuor#block-views-infos_sante-block_1 h2:before {
-  background: #cd477a;
+  background: #000000;
 }
 
 #content-inner .block-block.quatuor#block-views-infos_sante-block_1 h2:hover:before {
@@ -308,7 +308,7 @@
 }
 
 #content-inner .block-block.quatuor#block-block-19 h2:before {
-  background: #63b9ce;
+  background: #f5c228;
 }
 
 #content-inner .block-block.quatuor#block-block-20 {
@@ -319,7 +319,7 @@
 }
 
 #content-inner .block-block.quatuor#block-block-20 h2:before {
-  background: #006bb6;
+  background: #f5c228;
 }
 
 #content-inner #block-block-16 {
@@ -385,12 +385,12 @@
 
 #content-inner .block-block.quatuor#block-block-30 h2 {
   padding-bottom: 43px;
-  color: #2ECC71;
+  color: #000000;
   z-index: 1;
 }
 
 #content-inner .block-block.quatuor#block-block-30 h2:before {
-  background: #2ECC71;
+  background: #f5c228;
 }
 
 #content-inner .block-block.quatuor#block-block-30 a {
@@ -401,6 +401,6 @@
   position: absolute;
   bottom: 20px;
   padding: 0 24px;
-  color: #2ECC71;
+  color: #f5c228;
   box-sizing: border-box;
 }
